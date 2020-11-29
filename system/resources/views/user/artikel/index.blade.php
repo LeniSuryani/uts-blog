@@ -103,12 +103,12 @@
             <div class="col-lg-4 col-md-6 mt-md-0 mt-4">
                 <div class="card">
                     <div class="card-header p-0 position-relative">
-                        <a href="#blog-single.html">
+                        <a href="{{url('artikel',  $artikel->id)}}">
                             <img class="card-img-bottom d-block radius-image-full" src="{{url('public')}}/assets/user//images/fashion3.jpg" alt="Card image cap">
                         </a>
                     </div>
                     <div class="card-body blog-details">
-                        <a href="#blog-single.html" class="blog-desc">
+                        <a href="{{url('artikel',  $artikel->id)}}" class="blog-desc">
                             {{$artikel->judul}}
                         </a>
                         <div class="author align-items-center">
@@ -144,12 +144,12 @@
                 <div class="bg-clr-white hover-box">
                     <div class="row">
                         <div class="col-sm-5 position-relative">
-                            <a href="#blog-single.html" class="image-mobile">
+                            <a href="{{url('artikel',  $artikel->id)}}" class="image-mobile">
                                 <img class="card-img-bottom d-block radius-image-full" src="{{url('public')}}/assets/user/images/food.jpg" alt="Card image cap">
                             </a>
                         </div>
                         <div class="col-sm-7 card-body blog-details align-self">
-                            <a href="#blog-single.html" class="blog-desc">
+                            <a href="{{url('artikel',  $artikel->id)}}" class="blog-desc">
                                 {{$artikel->judul}}
                             </a>
                             <div class="author align-items-center">
@@ -193,12 +193,12 @@
                 <div class="bg-clr-white hover-box">
                     <div class="row">
                         <div class="col-sm-5 position-relative">
-                            <a href="#blog-single.html" class="image-mobile">
+                            <a href="{{url('artikel',  $artikel->id)}}" class="image-mobile">
                                 <img class="card-img-bottom d-block radius-image-full" src="{{url('public')}}/assets/user/images/trending2.jpg" alt="Card image cap">
                             </a>
                         </div>
                         <div class="col-sm-7 card-body blog-details align-self">
-                            <a href="#blog-single.html" class="blog-desc">
+                            <a href="{{url('artikel',  $artikel->id)}}" class="blog-desc">
                                 {{$artikel->judul}}
                             </a>
                             <div class="author align-items-center">

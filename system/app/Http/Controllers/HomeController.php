@@ -23,11 +23,10 @@ class HomeController extends Controller
         $data['list_artikel_food'] = artikel::where('kategori',  'food and wellness')->get();
         return view('user.artikel.index', $data);
     }
-    function artikel_show(artikel $artikel, $komen)
+    function artikel_show(artikel $artikel)
     {
-        // show yg lama
+
         $data['artikel'] = $artikel;
-        $data['komen'] = $komen;
         return view('user.artikel.show', $data);
     }
 

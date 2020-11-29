@@ -23,8 +23,26 @@
                         </div>
                         <div class="col-lg-4 col-md-8 img-circle mt-lg-0 mt-5">
                             <img src="{{url('public')}}/assets/user/images/beauty7.jpg" class="img-fluid radius-image-full" alt="client image">
-                            <div class="komentar mt-4">
+
+                            <div class="card mt-4">
+                                <div class="card-body">
+                                    <p>Naimah Nurhayati:</p>
+                                    Terimakasih Artikel nya sagus sekali
+                                </div>
                             </div>
+                            <div class="card mt-1">
+                                <div class="card-body">
+                                    <p>Afrilia Susanti Saufi :</p>
+                                    Sangat membantu, makasih ya
+                                </div>
+                            </div>
+                            <div class="card mt-1">
+                                <div class="card-body">
+                                    <p>Tri Indriani :</p>
+                                    wah saya baru tau, makasih ya info nya
+                                </div>
+                            </div>
+
 
                             <div class="komentar mt-4">
                                 <div class="card" style="width: 23rem; border-radius: 10px;">
